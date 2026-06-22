@@ -1,0 +1,38 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003887",
+  "source": "openneuro",
+  "source_id": "ds003887",
+  "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 2",
+  "authors": {
+    "Shatek, Sophia M.": {},
+    "Robinson, Amanda K.": {},
+    "Grootswagers, Tijl": {},
+    "Carlson, Thomas A.": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003887.v1.2.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "ARC DP160101300 (TAC)"
+    },
+    {
+      "funder_name": "ARC DP200101787 (TAC)"
+    }
+  ]
+}
