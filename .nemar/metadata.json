@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 2",
+  "description": "This dataset contains electroencephalographic (EEG) recordings from 24 participants performing object classification and passive viewing tasks while viewing static images of objects with varying capacities for movement and aliveness. The study investigates how the human brain represents movement as an organizational principle in visual object processing, independent of animacy. Raw EEG data in BrainVision format, preprocessed derivatives in EEGlab and cosmoMVPA formats, experimental stimuli (400 CC0 images), analysis scripts, and decoding results are provided.",
+  "methods_description": "Participants completed two tasks: (1) a time-pressured classification task where participants classified single images as 'can move' or 'still' with a 1-second timeout, and (2) a passive viewing task with rapid serial visual presentation (RSVP) streams of images where participants indicated fixation cross color changes. EEG data were recorded during both tasks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,57 +12,6 @@
     "Grootswagers, Tijl": {},
     "Carlson, Thomas A.": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds003887.v1.2.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003887",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003887",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "ARC",
-      "award_number": "DP160101300"
-    },
-    {
-      "funder_name": "ARC",
-      "award_number": "DP200101787"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".fdt",
-    ".jpg",
-    ".json",
-    ".m",
-    ".mat",
-    ".md",
-    ".py",
-    ".set",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This dataset contains electroencephalographic (EEG) recordings from 24 participants performing object classification and passive viewing tasks while viewing static images of objects with varying capacities for movement and aliveness. Stimuli were categorized as natural or artificial objects, dissociating movement from animacy (e.g., moving non-living objects and stationary living objects). The study investigates how the human brain represents movement as an organizational principle in object processing. Raw and preprocessed EEG data are provided alongside behavioral data, analysis scripts, and stimulus images. Note: Analysis code is designed to run on both Experiment 2 and Experiment 3 EEG data together; both datasets must be downloaded for full replication of analyses. Additionally, MTurk behavioral data from Experiment 1 is required for complete analysis replication but is not included in this dataset.",
-  "methods_description": "EEG data were recorded while participants completed two tasks: (1) a time-pressured classification task where participants classified images as 'can move' or 'still' with a 1-second timeout, and (2) a passive viewing task with rapid serial visual presentation (RSVP) streams of images where participants detected fixation cross color changes. Stimuli consisted of 400 static images of natural or artificial objects. Participants classified images according to either aliveness or capacity for movement.",
   "keywords": [
     {
       "term": "EEG"
@@ -75,26 +26,64 @@
       "term": "visual processing"
     },
     {
-      "term": "neural representation"
-    },
-    {
-      "term": "decoding analysis"
-    },
-    {
       "term": "representational similarity analysis"
     },
     {
-      "term": "animacy"
+      "term": "decoding"
     },
     {
-      "term": "aliveness"
-    },
-    {
-      "term": "object classification"
-    },
-    {
-      "term": "RSVP"
+      "term": "neural representation"
     }
   ],
-  "source_hash": "a6cd93ed23999dbffa13e2c199b1f995d0d48a6ac557ffb35fcca66a81e58bbe"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on003887",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003887",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003887.v1.2.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "ARC",
+      "award_number": "DP160101300"
+    },
+    {
+      "funder_name": "ARC",
+      "award_number": "DP200101787"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "86.6 GB (696 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".py",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "c6069b251ffc9174b4e8a8060c5e10a98f2f24f9388f5e2d67f812bbc9f3d524"
 }
