@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 2",
-  "description": "This dataset contains electroencephalographic (EEG) recordings from 24 participants performing object classification and passive viewing tasks while viewing static images of objects with varying capacities for movement and aliveness. The study investigates how the human brain represents movement as an organizational principle in visual object processing, independent of animacy. Raw EEG data in BrainVision format, preprocessed derivatives in EEGlab and cosmoMVPA formats, experimental stimuli (400 CC0 images), analysis scripts, and decoding results are provided.",
-  "methods_description": "Participants completed two tasks: (1) a time-pressured classification task where participants classified single images as 'can move' or 'still' with a 1-second timeout, and (2) a passive viewing task with rapid serial visual presentation (RSVP) streams of images where participants indicated fixation cross color changes. EEG data were recorded during both tasks.",
+  "description": "EEG recordings from 24 participants viewing static images of moving and non-moving, natural and artificial objects. The study tests whether capacity for movement is an organisational principle in object representations, separate from aliveness or animacy. Participants completed a speeded classification task and a passive rapid serial visual presentation task. The dataset includes raw BrainVision data, preprocessed derivatives, decoding results, analysis code, and 400 CC0 stimulus images.",
+  "methods_description": "Participants completed two tasks while EEG was recorded. In the classification task they judged single images as 'can move' or 'still', with a 1 second timeout per trial. In the passive viewing task they watched rapid serial visual presentation streams of images and pressed a button when the fixation cross changed colour. Raw data are in BrainVision format. Preprocessed data are in EEGLAB and CoSMoMVPA formats.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,22 +17,22 @@
       "term": "EEG"
     },
     {
-      "term": "object recognition"
+      "term": "object representation"
     },
     {
-      "term": "movement perception"
+      "term": "movement"
     },
     {
-      "term": "visual processing"
+      "term": "animacy"
     },
     {
-      "term": "representational similarity analysis"
+      "term": "visual perception"
     },
     {
       "term": "decoding"
     },
     {
-      "term": "neural representation"
+      "term": "representational similarity analysis"
     }
   ],
   "related_identifiers": [
@@ -42,23 +42,23 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003887",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003887.v1.2.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003887",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "ARC",
+      "funder_name": "Australian Research Council",
       "award_number": "DP160101300"
     },
     {
-      "funder_name": "ARC",
+      "funder_name": "Australian Research Council",
       "award_number": "DP200101787"
     }
   ],
@@ -68,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "86.6 GB (696 files)"
+    "80.65 GB (696 files)"
   ],
   "formats": [
     ".eeg",
