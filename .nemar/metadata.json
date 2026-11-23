@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Capacity for movement is an organisational principle in object representations: EEG data from Experiment 2",
-  "description": "EEG recordings from 24 participants viewing static images of moving and non-moving, natural and artificial objects. The study tests whether capacity for movement is an organisational principle in object representations, separate from aliveness or animacy. Participants completed a speeded classification task and a passive rapid serial visual presentation task. The dataset includes raw BrainVision data, preprocessed derivatives, decoding results, analysis code, and 400 CC0 stimulus images.",
-  "methods_description": "Participants completed two tasks while EEG was recorded. In the classification task they judged single images as 'can move' or 'still', with a 1 second timeout per trial. In the passive viewing task they watched rapid serial visual presentation streams of images and pressed a button when the fixation cross changed colour. Raw data are in BrainVision format. Preprocessed data are in EEGLAB and CoSMoMVPA formats.",
+  "description": "This dataset contains EEG recordings from 24 participants in Experiment 2 of a study on how capacity for movement shapes object representations in the brain. Participants viewed static images of moving and non-moving, natural and artificial objects while performing a time-pressured classification task and a passive RSVP viewing task. The results indicate that capacity for movement explains neural variance over and above aliveness. Raw BrainVision data, preprocessed derivatives, decoding results, analysis code and CC0 stimuli are included.",
+  "methods_description": "EEG was recorded with a BrainVision system while participants viewed static object images. In the classification task they judged each image as 'can move' or 'still', with a 1-second timeout. In the passive viewing task they watched rapid serial visual presentation streams and pressed a button when the fixation cross changed colour.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,19 +20,21 @@
       "term": "object representation"
     },
     {
-      "term": "movement"
+      "term": "capacity for movement"
     },
     {
       "term": "animacy"
-    },
-    {
-      "term": "visual perception"
     },
     {
       "term": "decoding"
     },
     {
       "term": "representational similarity analysis"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
@@ -42,13 +44,18 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "10.18112/openneuro.ds003887.v1.2.2",
+      "identifier": "https://nemar.org/dataset/on003887",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003887.v1.2.3",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
     },
     {
-      "identifier": "https://nemar.org/dataset/on003887",
-      "identifier_type": "URL",
+      "identifier": "10.1016/j.neuroimage.2022.119517",
+      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -85,5 +92,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "c6069b251ffc9174b4e8a8060c5e10a98f2f24f9388f5e2d67f812bbc9f3d524"
+  "source_hash": "05d02df049fdbe98e33558cb570180da51fd9bcf69fbaa925387b94cec487ed8"
 }
