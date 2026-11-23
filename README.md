@@ -2,7 +2,7 @@
 
 Overview
 ——————————————————
-This data is from the paper "Capacity for movement is a major organisational principle in object representations". This is the data of Experiment 3 (EEG: movement). Access the preprint here: https://psyarxiv.com/3x2qh/
+This data is from the paper "Capacity for movement is a major organisational principle in object representations". This is the data of Experiment 2 (EEG: movement). The paper is now published in NeuroImage: https://doi.org/10.1016/j.neuroimage.2022.119517
 
 Abstract:
 The ability to perceive moving objects is crucial for threat identification and survival. Recent neuroimaging evidence has shown that goal-directed movement is an important element of object processing in the brain. However, prior work has primarily used moving stimuli that are also animate, making it difficult to disentangle the effect of movement from aliveness or animacy in representational categorisation. In the current study, we investigated the relationship between how the brain processes movement and aliveness by including stimuli that are alive but still (e.g., plants), and stimuli that are not alive but move (e.g., waves). We examined electroencephalographic (EEG) data recorded while participants viewed static images of moving or non-moving objects that were either natural or artificial. Participants classified the images according to aliveness, or according to capacity for movement. Movement explained significant variance in the neural data over and above that of aliveness, showing that capacity for movement is an important dimension in the representation of visual objects in humans.  
